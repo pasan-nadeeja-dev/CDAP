@@ -24,6 +24,6 @@ python main.py test.txt 3
 # Steps for execute the program
 ```bash
 cd /CDAP                   #navigate to root folder using conda terminal
-conda activate py27        #if the current python version 2.7 in conda terminal, then ignore this step ```
-python main.py test.txt 3  #no of output sentence in summary depends on the last argument value ```
+conda activate py27        #if the current python version 2.7 in conda terminal, then ignore this step
+python main.py test.txt 3  #no of output sentence in summary depends on the last argument value
 ```

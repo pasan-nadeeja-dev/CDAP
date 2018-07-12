@@ -16,7 +16,7 @@ python --version = 2.7
 ```
 
 The program takes the text file to summarize and the number of sentences to include in the summary:
-Reads and summarizes document.txt in 3 sentences
+Reads and summarizes test.txt in 3 sentences
 ```bash
 python main.py test.txt 3
 ```

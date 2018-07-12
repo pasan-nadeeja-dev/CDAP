@@ -1,6 +1,4 @@
-#CDAP research project at SLIIT
-
-# spacy-summary
+# CDAP research project at SLIIT
 A test summarizer that uses [spacy.io](https://spacy.io/).
 
 ## Usage
@@ -18,10 +16,14 @@ python --version = 2.7
 ```
 
 The program takes the text file to summarize and the number of sentences to include in the summary:
-# Reads and summarizes document.txt in 3 sentences
+Reads and summarizes document.txt in 3 sentences
+```bash
 python main.py test.txt 3
+```
 
 # Steps for execute the program
-cd /CDAP ``` #navigate to root folder using conda terminal ```
-conda activate py27 ``` #if the current python version 2.7 in conda terminal, then ignore this step ```
-python main.py test.txt 3 ``` #no of output sentence in summary depends on the last argument value ```
+```bash
+cd /CDAP                   #navigate to root folder using conda terminal
+conda activate py27        #if the current python version 2.7 in conda terminal, then ignore this step ```
+python main.py test.txt 3  #no of output sentence in summary depends on the last argument value ```
+```
